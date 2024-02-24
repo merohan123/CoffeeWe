@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Web Page</title>
+    <link rel="stylesheet" href="Web2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <section class="flex">
+            <a href="#home" class="logo"><img src="Logo.jpg" alt=""></a>
+        <nav class="navbar">
+             <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact ">Contact</a></li>
+             </ul>
+        </nav>
+        </section>
+    </header>
+
+
+
+    
+    <div class="home-bg">
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Coffee Heaven</h3>
+                <p><b>Relax and unwind with us</b><br>
+                    After all that is said and done,
+                     remember, the universe is yours 
+                     to unfold. You belong here, with us.</p>
+                <a href="#about" class="btn">About Us</a>
+            </div>
+        </section>
+
+
+    </div>
+    <section class="about" id="about">
+        <div class="image">
+            <img src="About.png" alt="">
+        </div>
+        <div class="content">
+            <h3>A cup of coffee can complete your day</h3>
+            <p>We are focused on giving a satisfactory 
+                user experience and creating spaces
+                 which connect with the local culture 
+                 of any location we establish at.</p>
+           <a href="#menu" class="btn">Our Menu</a>
+        </div>
+    </section>
+
+    <section class="facility">
+        <div class="heading">
+            <img src="header.jpg" alt="">
+            <h3>Our Facility</h3>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="coffee-cup.png" alt="">
+                  <h3>Variety Of Coffees</h3>
+                  <p>
+                    From Espresso to Cold Brew, Our Coffee 
+                    Menu Offers a Taste for Every Palate
+                  </p>
+
+            </div>
+            <div class="box">
+                <img src="coffee-beans.png" alt="">
+                  <h3>Coffee Beans</h3>
+                  <p>Exploring the World of Coffee:
+                     Discover the Journey from Bean to Cup
+                  </p>
+                  
+            </div>
+            <div class="box">
+                <img src="coffee-cup (1).png" alt="">
+                  <h3>Ready To Go Coffee</h3>
+                  <p>
+                    Grab, Go, and Savor: Instantly 
+                    Enjoy the Perfection of Ready-to-Go
+                     Coffee
+
+                  </p>
+                  
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="heading">
+            <h3>Popular Menu</h3>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="Americano.jpg" alt="">
+                <h3>Americano Coffee</h3>
+            </div>
+            <div class="box">
+                <img src="Cappucccino.jpg" alt="">
+                <h3>Cappucccino Coffee</h3>
+            </div>
+            <div class="box">
+                <img src="Latte.jpg" alt="">
+                <h3>Latte</h3>
+            </div>
+            <div class="box">
+                <img src="Expresso.jpg" alt="">
+                <h3>Expresso Coffee</h3>
+            </div>
+            <div class="box">
+                <img src="mocha.jpg" alt="">
+                <h3>Mocha</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="gallery" id="gallery">
+        <div class="heading">
+            <h3>Our Gallery</h3>
+        </div>
+         <div class="box-container">
+            <img src="Gallary!.jpg" alt="">
+            <img src="Gallary2.jpg" alt="">
+            <img src="Gallary3.jpg" alt="">
+         </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h3>Book A Table</h3>
+        </div>
+        <div class="row">
+            <form action="" method="post">
+                <input type="text" name="name" required class="box" maxlength="20" placeholder="Enter Your Name">
+                <input type="number" name="number" required class="box" maxlength="20" placeholder="Enter Your Number" min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false">
+                <input type="number" name="Guests" required class="box" maxlength="20" placeholder="How many Guests?" min="0" max="99" onkeypress="if(this.value.length == 10) return false">
+                <input type="submit" name="send" value="Send Message" class="btn">           
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3>Our Email</h3>
+                <p>dhanavanirohan@gmail.com</p>
+                <p>rohanronnie4@gmail.com</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-clock"></i>
+                <h3>Opening Hours</h3>
+                <p>07:00 Am To 09:00pm</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-map"></i>
+                <h3>Shop Location</h3>
+                <p>A-1,Himalaya Zircon,Near VGEC,Motera,Ahmedabad-05</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>Our Number</h3>
+                <p>6353180497</p>
+                <p>738378604</p>
+            </div>
+
+        </div>
+        <div class="credit">
+            &copy; Copyrights @2023 by <span>Dhanvani Rohan</span>|All Rights Reserved
+        </div>
+    </section>
+</body>
+<script src="Web2.js"></script>
+</html>
